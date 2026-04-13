@@ -40,7 +40,7 @@ No external packages required — uses Python's built-in `tkinter` and `json` on
 
 
 ## 📁 Project Structure
-
+```
 contacts-app/
 ├── main.py              # Main application code
 ├── contacts.json        # Local contact data (auto-created on first run)
@@ -49,13 +49,13 @@ contacts-app/
 └── .github/
     └── workflows/
         └── build.yml    # GitHub Actions auto-build workflow
-
+```
 
 
 ## 🗂️ Data Format
 
 Contacts are stored locally in `contacts.json` in this format:
-
+```
 json
 {
   "Shubham Jondhale": {
@@ -69,7 +69,7 @@ json
     "added": "2026-04-14"
   }
 }
-
+```
 
 The file is created automatically on first launch. You can back it up, move it, or edit it manually.
 
