@@ -29,11 +29,11 @@
 
 bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/contacts-app.git
-cd contacts-app
+```git clone https://github.com/YOUR_USERNAME/contacts-app.git```
+```cd contacts-app```
 
 # 2. Run the app
-python main.py
+```python main.py```
 
 
 No external packages required — uses Python's built-in `tkinter` and `json` only.
@@ -79,10 +79,10 @@ To build your own .exe:
 
 bash
 # Install PyInstaller
-pip install pyinstaller
+```pip install pyinstaller```
 
 # Build single executable
-pyinstaller --onefile --windowed --name "Contacts" main.py
+```pyinstaller --onefile --windowed --name "Contacts" main.py```
 
 # Output will be at:
 # dist/Contacts.exe
